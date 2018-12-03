@@ -1,0 +1,81 @@
+body {
+    margin:0;
+    min-width: 100px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+    border: 1px red;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+.slogan{
+    font-size: 20px;
+}
+.deskripsi {
+    padding: 15px;
+    text-align: center;
+}
+textarea {
+    width: 100%;
+    height: 400px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+.form-contol {
+    height: 200px;
+    width: 450px;
+}
+
+select {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.garis {
+    border-top: 1px solid white;
+    border-bottom: 1px solid black;
+    height: 0px;
+    margin-bottom: 20px;
+}
+
+.mpgames {
+    height: 120px;
+    width: 18px;
+}
